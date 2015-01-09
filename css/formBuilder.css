@@ -18,13 +18,12 @@
 }
 .cb-wrap {
   float: right;
-  background: #fff;
-  width:36%;
+  width:32%;
 }
 .frmb-wrap {
   float: left;
-  width: 62%;
-  margin-right: 2%
+  width: 66%;
+  padding: 0 2% 0 0;
 }
 .frmb-wrap .action-links {
   display: none;
@@ -293,10 +292,9 @@ ol.sortable-options li {
   position: relative;
   margin-left: 0;
   margin-bottom: 5px;
-  background-color: #fff;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  border: 1px solid #fff;
+  border: 1px solid transparent;
   -webkit-transition: border 250ms ease-in-out;
   -moz-transition: border 250ms ease-in-out;
   -ms-transition: border 250ms ease-in-out;
@@ -508,8 +506,8 @@ td.formtitles {
 }
 ul.frmb {
   list-style-type: none;
-  min-height: 200px;
-  border: 1px solid #efefef;
+  min-height: 361px;
+  border: 1px solid #fff;
   margin: 0 0 5px;
   padding: 5px 5px 0
 }
